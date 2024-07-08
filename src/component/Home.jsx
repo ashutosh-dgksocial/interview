@@ -6,6 +6,11 @@ import { Card, Col, Container, Row } from 'react-bootstrap';
 import player1 from "../assets/players (1).png"
 import player2 from "../assets/players (2).png"
 import player3 from "../assets/players (3).png"
+
+import beard4 from "../assets/beard (4).png"
+import beard5 from "../assets/beard (5).png"
+import beard6 from "../assets/beard (6).png"
+import beard7 from "../assets/beard (7).png"
 function Home() {
   return (
     <>
@@ -78,6 +83,67 @@ function Home() {
             </Col>
           </Row>
         </Container>
+
+        <div className='container my-5'>
+          <h4>Featured Products</h4>
+          <div className='d-flex align-items-center' style={{ background: '#ef6566', width: '8rem', height: '5px', position: 'relative' }}>
+            <div style={{ position: 'absolute', left: '8rem', right: '', borderBottom: '2px solid grey', width: 'calc(100% + 50rem)' }}></div>
+          </div>
+        </div>
+
+        {/* my man */}
+        <div className="d-flex gap-3 mt-2 justify-content-center align-items-center">
+
+          <div className="mycard ">
+            <Card className="my-card-shadow" style={{ width: '17rem', border: 'none', }}>
+              <Card.Img variant="top" src={beard4} style={{ borderRadius: '10px', height: '18rem', objectFit: 'cover', }} />
+              <Card.Body>
+                <Card.Text>
+                  Spider Man Print T-Shirt.
+                </Card.Text>
+                <Card.Text variant="primary"><del className="text-secondary me-2"><span>₹999</span></del> ₹599</Card.Text>
+              </Card.Body>
+            </Card>
+          </div>
+
+          <div className="mycard ">
+            <Card className="my-card-shadow" style={{ width: '17rem', border: 'none', }}>
+              <Card.Img variant="top" src={beard5} style={{ borderRadius: '10px', height: '18rem', objectFit: 'cover', }} />
+              <Card.Body>
+                <Card.Text>
+                  Spider Man Print T-Shirt.
+                </Card.Text>
+                <Card.Text variant="primary"><del className="text-secondary me-2"><span>₹999</span></del> ₹599</Card.Text>
+              </Card.Body>
+            </Card>
+          </div>
+
+          <div className="mycard ">
+            <Card className="my-card-shadow" style={{ width: '17rem', border: 'none', }}>
+              <Card.Img variant="top" src={beard6} style={{ borderRadius: '10px', height: '18rem', objectFit: 'cover', }} />
+              <Card.Body>
+                <Card.Text>
+                  Spider Man Print T-Shirt.
+                </Card.Text>
+                <Card.Text variant="primary"><del className="text-secondary me-2"><span>₹999</span></del> ₹599</Card.Text>
+              </Card.Body>
+            </Card>
+          </div>
+
+          <div className="mycard ">
+            <Card className="my-card-shadow" style={{ width: '19rem', border: 'none', }}>
+              <Card.Img variant="top" src={beard7} style={{ borderRadius: '10px', height: '18rem', objectFit: 'cover', }} />
+              <Card.Body>
+                <Card.Text>
+                  Spider Man Print T-Shirt.
+                </Card.Text>
+                <Card.Text variant="primary"><del className="text-secondary me-2"><span>₹999</span></del> ₹599</Card.Text>
+              </Card.Body>
+            </Card>
+          </div>
+
+        </div>
+
 
         {/* last div */}
       </div>
