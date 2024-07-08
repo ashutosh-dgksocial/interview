@@ -1,0 +1,50 @@
+.my-card-shadow:hover {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.btn-hov:hover {
+    background-color: rgba(128, 128, 128, 0.214) !important;
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+}
+
+.login-form .form-group {
+    margin-bottom: 15px;
+}
+
+.login-form .form-control {
+    border-radius: 0;
+    height: 45px;
+}
+
+.login-form .forgot-password {
+    display: block;
+    margin-top: 10px;
+    text-align: right;
+}
+
+.login-form .btn {
+    height: 45px;
+    border-radius: 0;
+}
+
+.login-form .register-link {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.login-form .register-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login-form .register-link a:hover {
+    text-decoration: underline;
+    background: white;
+}
+
+.login-form .register-link span {
+    color: red;
+}
